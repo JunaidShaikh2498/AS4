@@ -22,6 +22,9 @@
     text-align: center;
     font-weight: bold;
 }
+
+/* Lorem text container */
+
 .container{
     margin-bottom: 20px;
     background-color: rgb(44, 253, 208);
@@ -33,6 +36,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+/* Lorem text content boxes */
 .boxl{
     text-align: center;
     font-weight: bold;
@@ -41,6 +45,9 @@
     margin-left: 15px;
     background-color: rgb(74, 210, 255);
 }
+
+/* Second heading */
+
 .jee{
 border: 0.5px solid black;
 height: 20px;
@@ -50,6 +57,9 @@ background-image: linear-gradient(to right, red  ,yellow, red );
 margin-bottom:10px;
 font-weight: bold;
 }
+
+/* Student names container */
+
 .results{
     height: 210px;
     background-image:radial-gradient( rgb(28, 28, 224),rgb(3, 135, 187) 50%, rgb(58, 238, 58));
@@ -58,6 +68,9 @@ font-weight: bold;
     padding: 20px;
     margin-bottom: 20px;
 }
+
+/* Student name boxes */
+
 .student{
     height: 100px;
     width: 15%;
@@ -70,6 +83,9 @@ font-weight: bold;
     text-align: center;
     text-decoration: underline;
 }
+
+/* Grid CSS */
+
 .fgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 60px;
